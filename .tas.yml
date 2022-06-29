@@ -6,7 +6,7 @@ preRun:
     - npm install
 
 blocklist:
-  - "./test/rules.test.js"
+  - "./cli.test.js"
 
 postMerge:
   pattern:
