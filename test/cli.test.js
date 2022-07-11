@@ -4,7 +4,7 @@ const cli = require("../bin/cli");
 
 const offPatterns = [0, "off", [0], ["off"], ["off", "never"]];
 const onPatterns = [1, 2, "warn", "error", [1], [2], ["warn"], ["error"]];
-
+//comment
 function createRules(rules, pattern) {
   const arrayPattern = Array.isArray(pattern) ? pattern : [pattern];
   return rules.map((rule) => {
