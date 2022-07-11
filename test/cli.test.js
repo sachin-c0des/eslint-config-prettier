@@ -39,7 +39,7 @@ describe("does not flag", () => {
     });
   });
 });
-
+// comment
 describe("does flag", () => {
   const rules = ["strict", "arrow-parens"];
 
