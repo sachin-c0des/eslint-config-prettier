@@ -27,6 +27,8 @@ rule("curly", {
   invalid: [["multi-line"], ["multi-or-nest"], ["multi-line", "consistent"]],
 });
 
+// test comment
+
 rule("lines-around-comment", {
   valid: [
     [
