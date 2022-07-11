@@ -15,7 +15,7 @@ function createRules(rules, pattern) {
     return [name, value, "test-source.js"];
   });
 }
-// comment
+
 describe("does not flag", () => {
   const rules = ["strict", "arrow-parens", "curly", "max-len"];
 
