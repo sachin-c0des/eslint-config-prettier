@@ -41,7 +41,7 @@ ${result.stderr}
 beforeAll(() => {
   createTestConfigDir();
 });
-
+// comment
 function createTestConfigDir() {
   rimraf.sync(TEST_CONFIG_DIR);
   fs.mkdirSync(TEST_CONFIG_DIR);
