@@ -17,4 +17,4 @@ preMerge:
   pattern:
     # glob-patterns to discover tests to run in case of postMerge
     - "./test/*.js"
-version: 1.4
+version: 1.5
