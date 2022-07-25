@@ -26,6 +26,8 @@ ${result.stderr}
   }
 }
 
+// add comment
+
 describe("test-lint/ causes errors without eslint-config-prettier", () => {
   const result = childProcess.spawnSync(
     "npm",
