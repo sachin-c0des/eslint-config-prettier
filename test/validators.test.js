@@ -3,6 +3,7 @@
 const validators = require("../bin/validators");
 const { inspect } = require("util");
 
+// added comment
 expect.extend({
   toPass(validator, options) {
     const pass = validator({ options, source: "test-source.js" }, []);
