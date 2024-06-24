@@ -3,7 +3,7 @@ framework: jest # mocha # framework should be as per your project
 
 preRun:
   command:
-    - npm install
+    - npm i
 
 blocklist:
 
